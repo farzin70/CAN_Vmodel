@@ -14,7 +14,7 @@
  * @details def
  */
 /*================== Includes ===============================================*/
-#include "include_app/configuration/init.h""
+#include "include_app/configuration/init.h"
 #include "include_bmodule_driver_lib/crc_calc.h"
 /*================== Macros and Definitions =================================*/
 /*================== Static Constant and Variable Definitions ===============*/

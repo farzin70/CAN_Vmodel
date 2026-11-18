@@ -181,10 +181,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX13_ENABLE 1
 #if CANB_MSG_BOX13_ENABLE
-#define CANB_MSG_BOX13_MSG_ID 0x40U
+#define CANB_MSG_BOX13_MSG_ID 13
 #define CANB_MSG_BOX13_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX13_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX13_ID_MASK 0x7FF
+#define CANB_MSG_BOX13_ID_MASK 0
 #define CANB_MSG_BOX13_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX13_DATA_LENGTH 8
 #endif
@@ -193,10 +193,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX14_ENABLE 1
 #if CANB_MSG_BOX14_ENABLE
-#define CANB_MSG_BOX14_MSG_ID (0x342U) /*341 and 342*/
+#define CANB_MSG_BOX14_MSG_ID 14
 #define CANB_MSG_BOX14_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX14_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX14_ID_MASK (0x7FCU)
+#define CANB_MSG_BOX14_ID_MASK 0
 #define CANB_MSG_BOX14_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX14_DATA_LENGTH 8
 #endif
@@ -205,10 +205,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX15_ENABLE 1
 #if CANB_MSG_BOX15_ENABLE
-#define CANB_MSG_BOX15_MSG_ID (0x61D)
+#define CANB_MSG_BOX15_MSG_ID 15
 #define CANB_MSG_BOX15_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX15_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX15_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX15_ID_MASK 0
 #define CANB_MSG_BOX15_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX15_DATA_LENGTH 8
 #endif
@@ -217,10 +217,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX16_ENABLE 1
 #if CANB_MSG_BOX16_ENABLE
-#define CANB_MSG_BOX16_MSG_ID (0x320)
+#define CANB_MSG_BOX16_MSG_ID 16
 #define CANB_MSG_BOX16_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX16_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX16_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX16_ID_MASK 0
 #define CANB_MSG_BOX16_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX16_DATA_LENGTH 8
 #endif
@@ -229,10 +229,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX17_ENABLE 1
 #if CANB_MSG_BOX17_ENABLE
-#define CANB_MSG_BOX17_MSG_ID (0x317)
+#define CANB_MSG_BOX17_MSG_ID 17
 #define CANB_MSG_BOX17_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX17_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX17_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX17_ID_MASK 0
 #define CANB_MSG_BOX17_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX17_DATA_LENGTH 8
 #endif
@@ -241,10 +241,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX18_ENABLE 1
 #if CANB_MSG_BOX18_ENABLE
-#define CANB_MSG_BOX18_MSG_ID (0x20B)
+#define CANB_MSG_BOX18_MSG_ID 18
 #define CANB_MSG_BOX18_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX18_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX18_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX18_ID_MASK 0
 #define CANB_MSG_BOX18_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX18_DATA_LENGTH 8
 #endif
@@ -253,10 +253,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX19_ENABLE 1
 #if CANB_MSG_BOX19_ENABLE
-#define CANB_MSG_BOX19_MSG_ID (0x21FU)
+#define CANB_MSG_BOX19_MSG_ID 19
 #define CANB_MSG_BOX19_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX19_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX19_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX19_ID_MASK 0
 #define CANB_MSG_BOX19_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX19_DATA_LENGTH (8U)
 #endif
@@ -265,10 +265,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX20_ENABLE 1
 #if CANB_MSG_BOX20_ENABLE
-#define CANB_MSG_BOX20_MSG_ID (0x4AFU)
+#define CANB_MSG_BOX20_MSG_ID 20
 #define CANB_MSG_BOX20_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX20_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX20_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX20_ID_MASK 0
 #define CANB_MSG_BOX20_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX20_DATA_LENGTH (8U)
 #endif
@@ -277,10 +277,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX21_ENABLE 1
 #if CANB_MSG_BOX21_ENABLE
-#define CANB_MSG_BOX21_MSG_ID (0x1A3U)
+#define CANB_MSG_BOX21_MSG_ID 21
 #define CANB_MSG_BOX21_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX21_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX21_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX21_ID_MASK 0
 #define CANB_MSG_BOX21_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX21_DATA_LENGTH (8U)
 #endif
@@ -289,10 +289,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX22_ENABLE 1
 #if CANB_MSG_BOX22_ENABLE
-#define CANB_MSG_BOX22_MSG_ID (0x1F4U)
+#define CANB_MSG_BOX22_MSG_ID 22
 #define CANB_MSG_BOX22_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX22_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX22_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX22_ID_MASK 0
 #define CANB_MSG_BOX22_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX22_DATA_LENGTH (8U)
 #endif
@@ -301,10 +301,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX23_ENABLE 1
 #if CANB_MSG_BOX23_ENABLE
-#define CANB_MSG_BOX23_MSG_ID (0x1AEU)
+#define CANB_MSG_BOX23_MSG_ID 23
 #define CANB_MSG_BOX23_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX23_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX23_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX23_ID_MASK 0
 #define CANB_MSG_BOX23_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX23_DATA_LENGTH (8U)
 #endif
@@ -313,10 +313,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX24_ENABLE 1
 #if CANB_MSG_BOX24_ENABLE
-#define CANB_MSG_BOX24_MSG_ID (0x205U)
+#define CANB_MSG_BOX24_MSG_ID 25
 #define CANB_MSG_BOX24_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX24_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX24_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX24_ID_MASK 0
 #define CANB_MSG_BOX24_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX24_DATA_LENGTH (8U)
 #endif
@@ -325,10 +325,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX25_ENABLE 1
 #if CANB_MSG_BOX25_ENABLE
-#define CANB_MSG_BOX25_MSG_ID (0x752U)
+#define CANB_MSG_BOX25_MSG_ID 26
 #define CANB_MSG_BOX25_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX25_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX25_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX25_ID_MASK 0
 #define CANB_MSG_BOX25_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX25_DATA_LENGTH (8U)
 #endif
@@ -337,10 +337,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX26_ENABLE 1
 #if CANB_MSG_BOX26_ENABLE
-#define CANB_MSG_BOX26_MSG_ID (0x32AU)
+#define CANB_MSG_BOX26_MSG_ID 27
 #define CANB_MSG_BOX26_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX26_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX26_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX26_ID_MASK 0
 #define CANB_MSG_BOX26_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX26_DATA_LENGTH (8U)
 #endif
@@ -349,10 +349,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX27_ENABLE 1
 #if CANB_MSG_BOX27_ENABLE
-#define CANB_MSG_BOX27_MSG_ID (0x23AU)
+#define CANB_MSG_BOX27_MSG_ID 28
 #define CANB_MSG_BOX27_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX27_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX27_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX27_ID_MASK 0
 #define CANB_MSG_BOX27_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX27_DATA_LENGTH (8U)
 #endif
@@ -361,10 +361,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX28_ENABLE 1
 #if CANB_MSG_BOX28_ENABLE
-#define CANB_MSG_BOX28_MSG_ID (0x401U)
+#define CANB_MSG_BOX28_MSG_ID 29
 #define CANB_MSG_BOX28_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX28_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX28_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX28_ID_MASK 0
 #define CANB_MSG_BOX28_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX28_DATA_LENGTH (8U)
 #endif
@@ -373,10 +373,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX29_ENABLE 1
 #if CANB_MSG_BOX29_ENABLE
-#define CANB_MSG_BOX29_MSG_ID (0x2CDU)
+#define CANB_MSG_BOX29_MSG_ID 30
 #define CANB_MSG_BOX29_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX29_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX29_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX29_ID_MASK 0
 #define CANB_MSG_BOX29_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX29_DATA_LENGTH (8U)
 #endif
@@ -385,10 +385,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX30_ENABLE 1
 #if CANB_MSG_BOX30_ENABLE
-#define CANB_MSG_BOX30_MSG_ID (0x2ABU)
+#define CANB_MSG_BOX30_MSG_ID 31
 #define CANB_MSG_BOX30_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX30_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX30_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX30_ID_MASK 0
 #define CANB_MSG_BOX30_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX30_DATA_LENGTH (8U)
 #endif
@@ -397,10 +397,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX31_ENABLE 1
 #if CANB_MSG_BOX31_ENABLE
-#define CANB_MSG_BOX31_MSG_ID (0x135U)
+#define CANB_MSG_BOX31_MSG_ID 32
 #define CANB_MSG_BOX31_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX31_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX31_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX31_ID_MASK 0
 #define CANB_MSG_BOX31_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX31_DATA_LENGTH (8U)
 #endif
@@ -409,10 +409,10 @@
 /*===========================================================================*/
 #define CANB_MSG_BOX32_ENABLE 1
 #if CANB_MSG_BOX32_ENABLE
-#define CANB_MSG_BOX32_MSG_ID (0x3A2U)
+#define CANB_MSG_BOX32_MSG_ID 24
 #define CANB_MSG_BOX32_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANB_MSG_BOX32_FRAME CAN_MSG_FRAME_STD
-#define CANB_MSG_BOX32_ID_MASK (0x7FFU)
+#define CANB_MSG_BOX32_ID_MASK 0
 #define CANB_MSG_BOX32_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANB_MSG_BOX32_DATA_LENGTH (8U)
 #endif

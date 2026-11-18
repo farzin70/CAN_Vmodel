@@ -229,10 +229,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX17_ENABLE 1
 #if CANA_MSG_BOX17_ENABLE
-#define CANA_MSG_BOX17_MSG_ID 0x1838F380
+#define CANA_MSG_BOX17_MSG_ID 17
 #define CANA_MSG_BOX17_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX17_FRAME CAN_MSG_FRAME_EXT
-#define CANA_MSG_BOX17_ID_MASK 0x1838F380
+#define CANA_MSG_BOX17_ID_MASK 0
 #define CANA_MSG_BOX17_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX17_DATA_LENGTH 8
 #endif
@@ -241,10 +241,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX18_ENABLE 1
 #if CANA_MSG_BOX18_ENABLE
-#define CANA_MSG_BOX18_MSG_ID (0x512)
+#define CANA_MSG_BOX18_MSG_ID 18
 #define CANA_MSG_BOX18_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX18_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX18_ID_MASK (0x7FF)
+#define CANA_MSG_BOX18_ID_MASK 0
 #define CANA_MSG_BOX18_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX18_DATA_LENGTH 8
 #endif
@@ -253,10 +253,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX19_ENABLE 1
 #if CANA_MSG_BOX19_ENABLE
-#define CANA_MSG_BOX19_MSG_ID (0x42F) /*Air heater*/
+#define CANA_MSG_BOX19_MSG_ID 19
 #define CANA_MSG_BOX19_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX19_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX19_ID_MASK (0x7FD)
+#define CANA_MSG_BOX19_ID_MASK 0
 #define CANA_MSG_BOX19_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX19_DATA_LENGTH 8
 #endif
@@ -265,10 +265,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX20_ENABLE 1
 #if CANA_MSG_BOX20_ENABLE
-#define CANA_MSG_BOX20_MSG_ID (0x61B) /*BMS*/
+#define CANA_MSG_BOX20_MSG_ID 20
 #define CANA_MSG_BOX20_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX20_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX20_ID_MASK (0x70F)
+#define CANA_MSG_BOX20_ID_MASK 0
 #define CANA_MSG_BOX20_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX20_DATA_LENGTH 8
 #endif
@@ -277,10 +277,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX21_ENABLE 1
 #if CANA_MSG_BOX21_ENABLE
-#define CANA_MSG_BOX21_MSG_ID 0x610
+#define CANA_MSG_BOX21_MSG_ID 21
 #define CANA_MSG_BOX21_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX21_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX21_ID_MASK 0x7F0
+#define CANA_MSG_BOX21_ID_MASK 0
 #define CANA_MSG_BOX21_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX21_DATA_LENGTH 8
 #endif
@@ -289,10 +289,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX22_ENABLE 0
 #if CANA_MSG_BOX22_ENABLE
-#define CANA_MSG_BOX22_MSG_ID 0x123
+#define CANA_MSG_BOX22_MSG_ID 22
 #define CANA_MSG_BOX22_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX22_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX22_ID_MASK 0x7FF
+#define CANA_MSG_BOX22_ID_MASK 0
 #define CANA_MSG_BOX22_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX22_DATA_LENGTH 8
 #endif
@@ -301,10 +301,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX23_ENABLE 0
 #if CANA_MSG_BOX23_ENABLE
-#define CANA_MSG_BOX23_MSG_ID 0x111
+#define CANA_MSG_BOX23_MSG_ID 23
 #define CANA_MSG_BOX23_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX23_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX23_ID_MASK 0x7FF
+#define CANA_MSG_BOX23_ID_MASK 0
 #define CANA_MSG_BOX23_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX23_DATA_LENGTH 8
 #endif
@@ -313,10 +313,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX24_ENABLE 0
 #if CANA_MSG_BOX24_ENABLE
-#define CANA_MSG_BOX24_MSG_ID 0x145
+#define CANA_MSG_BOX24_MSG_ID 24
 #define CANA_MSG_BOX24_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX24_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX24_ID_MASK 0x7F0
+#define CANA_MSG_BOX24_ID_MASK 0
 #define CANA_MSG_BOX24_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX24_DATA_LENGTH 8
 #endif
@@ -325,10 +325,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX25_ENABLE 1
 #if CANA_MSG_BOX25_ENABLE
-#define CANA_MSG_BOX25_MSG_ID (0x7DFU)
+#define CANA_MSG_BOX25_MSG_ID 25
 #define CANA_MSG_BOX25_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX25_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX25_ID_MASK (0x7FFU)
+#define CANA_MSG_BOX25_ID_MASK 0
 #define CANA_MSG_BOX25_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX25_DATA_LENGTH (8U)
 #endif
@@ -337,10 +337,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX26_ENABLE 1
 #if CANA_MSG_BOX26_ENABLE
-#define CANA_MSG_BOX26_MSG_ID (0x752U) /*OBD*/
+#define CANA_MSG_BOX26_MSG_ID 26
 #define CANA_MSG_BOX26_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX26_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX26_ID_MASK (0x7FFU)
+#define CANA_MSG_BOX26_ID_MASK 0
 #define CANA_MSG_BOX26_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX26_DATA_LENGTH (8U)
 #endif
@@ -349,10 +349,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX27_ENABLE 1
 #if CANA_MSG_BOX27_ENABLE
-#define CANA_MSG_BOX27_MSG_ID (0x22CU) /*NDR*/
+#define CANA_MSG_BOX27_MSG_ID 27
 #define CANA_MSG_BOX27_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX27_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX27_ID_MASK (0x7FFU)
+#define CANA_MSG_BOX27_ID_MASK 0
 #define CANA_MSG_BOX27_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX27_DATA_LENGTH (8U)
 #endif
@@ -361,10 +361,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX28_ENABLE 1
 #if CANA_MSG_BOX28_ENABLE
-#define CANA_MSG_BOX28_MSG_ID (0x213U) /*Water Pump*/
+#define CANA_MSG_BOX28_MSG_ID 28
 #define CANA_MSG_BOX28_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX28_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX28_ID_MASK (0x7FFU)
+#define CANA_MSG_BOX28_ID_MASK 0
 #define CANA_MSG_BOX28_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX28_DATA_LENGTH (8U)
 #endif
@@ -373,10 +373,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX29_ENABLE 1
 #if CANA_MSG_BOX29_ENABLE
-#define CANA_MSG_BOX29_MSG_ID (0x61EU) /*HMI*/
+#define CANA_MSG_BOX29_MSG_ID 29
 #define CANA_MSG_BOX29_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX29_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX29_ID_MASK (0x7FFU)
+#define CANA_MSG_BOX29_ID_MASK 0
 #define CANA_MSG_BOX29_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX29_DATA_LENGTH (8U)
 #endif
@@ -385,10 +385,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX30_ENABLE 1
 #if CANA_MSG_BOX30_ENABLE
-#define CANA_MSG_BOX30_MSG_ID (0x550U) /*batter Pack heater*/
+#define CANA_MSG_BOX30_MSG_ID 30
 #define CANA_MSG_BOX30_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX30_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX30_ID_MASK (0x7FFU)
+#define CANA_MSG_BOX30_ID_MASK 0
 #define CANA_MSG_BOX30_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX30_DATA_LENGTH (8U)
 #endif
@@ -397,10 +397,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX31_ENABLE 1
 #if CANA_MSG_BOX31_ENABLE
-#define CANA_MSG_BOX31_MSG_ID (0x212U) /*Water Pump*/
+#define CANA_MSG_BOX31_MSG_ID 31
 #define CANA_MSG_BOX31_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX31_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX31_ID_MASK (0x7FFU)
+#define CANA_MSG_BOX31_ID_MASK 0
 #define CANA_MSG_BOX31_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX31_DATA_LENGTH (8U)
 #endif
@@ -409,10 +409,10 @@
 /*===========================================================================*/
 #define CANA_MSG_BOX32_ENABLE 1
 #if CANA_MSG_BOX32_ENABLE
-#define CANA_MSG_BOX32_MSG_ID (0x490U) /*cooler compressor*/
+#define CANA_MSG_BOX32_MSG_ID 32
 #define CANA_MSG_BOX32_TYPE CAN_MSG_BOX_TYPE_RX
 #define CANA_MSG_BOX32_FRAME CAN_MSG_FRAME_STD
-#define CANA_MSG_BOX32_ID_MASK (0x7FFU)
+#define CANA_MSG_BOX32_ID_MASK 0
 #define CANA_MSG_BOX32_INT (CAN_MSG_OBJ_RX_INT_ENABLE | CAN_MSG_OBJ_USE_ID_FILTER)
 #define CANA_MSG_BOX32_DATA_LENGTH (8U)
 #endif
